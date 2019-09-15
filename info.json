@@ -1,0 +1,12 @@
+{
+    "i2c" : {
+        "void i2c(pin scl sda, int frequency=400000 timeout=255)": {
+            "chk" : {
+                "scl" : "SCL",
+                "sda" : "SDA",
+                "frequency" : "[400000,]",
+                "timout" : "255,127,63"
+            }
+        }
+    }
+}
