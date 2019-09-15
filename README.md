@@ -6,7 +6,21 @@ Generate common-hal and binding level code for Ardupy.
 python gen.py info.json
 ```
 
-### Uages
+### Guide
+#### Avaliable Paramter Type
+- int
+- obj
+- str
+- pin
+- bool
+- float
+
+#### Avaliable Pin List
+- D0, D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13
+- A0, A1, A2, A3, A4, A5
+- SDA, SCL
+- SCK, MOSI, MISO
+
 #### Example 1
 ```code
 {
